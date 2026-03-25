@@ -1,8 +1,7 @@
 # ⌨️ Typing Speed Tester
 
 A simple typing speed tester built with **Python (Tkinter)** and **MySQL**.
-Started as a small project to practice GUI + database stuff, ended up becoming a full typing app with stats, levels, and a leaderboard.
-
+Started as a small project to practice GUI + database stuff...
 ---
 
 ## 🚀 What it does
@@ -134,7 +133,7 @@ python main.py
 ## 📝 Notes
 
 * Passwords are stored as plain text (not secure, just for learning)
-* This is a **project app**, not production-ready
+* This is a **project app**.
 
 ---
 
@@ -153,13 +152,15 @@ python main.py
 Wanted to build something that combines:
 
 * GUI
-* real-time interaction
-* database
-
-Typing tester felt like a good mix of all three.
+* Real-time interaction
+* Familiarization with Databases.
 
 ---
 
 ## 👍 That's it
 
 If you like it, feel free to fork or improve it.
+
+```bash id="d4e5f6"
+Thanks
+```
