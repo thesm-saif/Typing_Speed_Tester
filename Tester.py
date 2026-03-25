@@ -8,8 +8,8 @@ import re
 db = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="Kannekt123#",
-    database="typing_app"
+    password="Your Password",  #Change the password here!!!
+    database="typing_app"      #If you intend to use a different database make sure to change in the SQL and as well as here.
 )
 cursor = db.cursor()
 
@@ -39,7 +39,7 @@ class App:
         self.current_user = None
         self.practice_running = False
 
-        self.login_screen()  # ✅ FIXED
+        self.login_screen()
 
     def clear(self):
         for w in self.root.winfo_children():
@@ -358,3 +358,6 @@ class App:
 root = tk.Tk()
 App(root)
 root.mainloop()
+
+
+#Thanks for looking out!
