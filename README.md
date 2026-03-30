@@ -1,7 +1,6 @@
 # ⌨️ Typing Speed Tester
 
 A simple typing speed tester built with **Python (Tkinter)** and **MySQL**.
-Started as a small project to practice GUI + database stuff...
 ---
 
 ## 🚀 What it does
@@ -27,7 +26,7 @@ The app automatically gives you new sentences after each test.
 ### 🎯 Level Mode
 
 * Starts easy → gradually becomes harder
-* Total **7 levels**
+* Total **7 levels** in Level Mode.
 * Countdown before each level starts
 
 ---
@@ -90,9 +89,9 @@ pip install mysql-connector-python
 Run the following in MySQL:
 
 ```sql id="g7h8i9"
-CREATE DATABASE typing_app;
+CREATE DATABASE typing_app; #Feel free to use any database you want
 
-USE typing_app;
+USE typing_app; #Change the database here if you haven't gone with the default one
 
 CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -117,7 +116,7 @@ CREATE TABLE scores (
 In your Python file, change this:
 
 ```python id="j1k2l3"
-password = "YOUR_PASSWORD"
+password = "YOUR_PASSWORD" 
 ```
 
 ---
@@ -159,7 +158,7 @@ Wanted to build something that combines:
 
 ## 👍 That's it
 
-If you like it, feel free to fork or improve it.
+If you like it, feel free to fork and improve it.
 
 ```bash id="d4e5f6"
 Thanks
