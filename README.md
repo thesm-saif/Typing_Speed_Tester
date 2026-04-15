@@ -1,9 +1,9 @@
-# ⌨️ Typing Speed Tester
+#  Typing Speed Tester
 
 A simple typing speed tester built with **Python (Tkinter)** and **MySQL**.
 ---
 
-## 🚀 What it does
+##  What it does
 
 * Test your typing speed (**WPM**) and **accuracy**
 * Multiple difficulty modes: **easy / medium / hard / mixed**
@@ -14,16 +14,16 @@ A simple typing speed tester built with **Python (Tkinter)** and **MySQL**.
 
 ---
 
-## ✨ Features
+##  Features
 
-### 🧪 Practice Mode
+###  Practice Mode
 
 Pick a difficulty and start typing.
 The app automatically gives you new sentences after each test.
 
 ---
 
-### 🎯 Level Mode
+###  Level Mode
 
 * Starts easy → gradually becomes harder
 * Total **7 levels** in Level Mode.
@@ -31,16 +31,16 @@ The app automatically gives you new sentences after each test.
 
 ---
 
-### ⚡ Live Feedback
+###  Live Feedback
 
-* ✅ Correct letters → **green**
-* ❌ Wrong letters → **red**
-* 📊 Progress bar while typing
-* ⌨️ On-screen keyboard highlights key presses
+*  Correct letters → **green**
+*  Wrong letters → **red**
+*  Progress bar while typing
+*  On-screen keyboard highlights key presses
 
 ---
 
-### 📊 Stats & History
+###  Stats & History
 
 * Average WPM
 * Average accuracy
@@ -49,14 +49,14 @@ The app automatically gives you new sentences after each test.
 
 ---
 
-### 🏆 Leaderboard
+###  Leaderboard
 
 * Top 10 users ranked by highest WPM
 * Stored using MySQL database
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * **Python**
 * **Tkinter**
@@ -65,7 +65,7 @@ The app automatically gives you new sentences after each test.
 
 ---
 
-## ⚙️ Setup
+##  Setup
 
 ### 1. Clone the repository
 
@@ -129,14 +129,14 @@ python main.py
 
 ---
 
-## 📝 Notes
+##  Notes
 
 * Passwords are stored as plain text (not secure, just for learning)
 * This is a **project app**.
 
 ---
 
-## 💡 Future Improvements
+##  Future Improvements
 
 * Add password hashing
 * Improve UI design
@@ -146,7 +146,7 @@ python main.py
 
 ---
 
-## 🤔 Why I built this
+##  Why I built this
 
 Wanted to build something that combines:
 
@@ -156,7 +156,7 @@ Wanted to build something that combines:
 
 ---
 
-## 👍 That's it
+##  That's it
 
 If you like it, feel free to fork and improve it.
 
